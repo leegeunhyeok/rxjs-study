@@ -9,8 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/leegeunhyeok/rxjs-study.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Geunhyeok LEE <dev.ghlee@gmail.com>",
   "bugs": {
     "url": "https://github.com/leegeunhyeok/rxjs-study/issues"
   },

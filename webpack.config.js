@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const entries = fs
-  .readdirSync('./src')
+  .readdirSync('./playground')
   .filter((file) => file.match(/.*\.ts$/))
   .reduce((entries, filename) => {
     const name = filename.split('.')[0];
-    entries[name] = path.join(__dirname, 'src', filename);
+    entries[name] = path.join(__dirname, 'playground', filename);
     return entries;
   }, {});
 
